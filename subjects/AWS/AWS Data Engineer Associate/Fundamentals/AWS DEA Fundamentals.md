@@ -1,0 +1,72 @@
+## Types of Data
+- Structured
+	- Data that is organized in a defined manner or schema
+	- Typically found in Relational Databases
+	- Characteristics
+		- Easily queryable
+		- Organized into rows and columns
+		- Consistent Structure
+	- Examples
+		- CSV Files or Excel Spreadsheets with consistent columns
+		- Database Tables
+- Unstructured
+	- Data that doesn't have a predefined schema or structure
+	- Characteristics
+		- Not easily queryable without structuring or preprocessing
+		- Various Formats
+	- Examples
+		- Images
+		- Emails and Word Processing Documents
+		- Text Files without a fixed format
+		- Videos and audio Files
+- Semi-Structured
+	- Data that is not as organized as structured, but has some form of structure such as tags, patterns, etc.
+	- Characteristics
+		- Elements are tagged in some form
+		- More flexible than structured data
+	- Examples
+		- XML and JSON files
+		- Email headers (Data, Subject, Body)
+		- Log files with varied formats
+
+## Data Properties
+- Volume
+	- How much data or size of the data
+	- Affects decisions on how and where you store and process the data
+- Velocity
+	- Refers to the speed at which new data is generated, collected, and processed
+	- High-velocity requires real-time or near-real-time processing
+- Variety
+	- Refers to the types and sources of data
+	- Is it structured, unstructured, or semi-structured data
+
+## Data Warehouses vs. Data Lakes
+- Data Warehouses
+	- Centralized repository where data from different sources is stored in a structured format
+	- Characteristics
+		- Data is cleaned, transformed and loaded
+		- Designed for complex queries
+		- Typically uses a star or snowflake schema
+		- Optimized for read-heavy operations
+	- Examples
+		- Redshift
+		- Google BigQuery
+		- Azure SQL Data Warehouse
+- Data Lake
+	- Storage repo that holds casts amounts of raw data in it's native format
+	- Can include structured, unstructured, and semi-structured data
+	- Characteristics
+		- Stores large amounts of raw data without a predefined schema
+		- Data is loaded as-is, no need for preprocessing
+		- Supports batch, real-time, and stream processing
+		- Can be queried for data transformation or exploration purposes
+	- Examples
+		- S3
+		- Hadoop Distributed File System
+
+## Data Mesh
+- Concerned with data governance and organization
+- Each team owns their own data within a domain
+- Data is used to serve the organization
+- Domain-based data management
+- Federated governance with central standards - everyone follows the same guidelines and standards, but can create their own content

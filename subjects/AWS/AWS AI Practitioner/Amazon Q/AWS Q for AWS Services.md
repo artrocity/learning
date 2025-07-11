@@ -1,0 +1,21 @@
+## Services
+- QuickSight
+	- Used to visualize data and create dashboards
+	- Q understands natural language, you can ask questions about your data
+	- Create summaries of your data
+	- Ask and answer questions of your data
+	- Generate and edit visuals for your dashboards
+- EC2
+	- Virtual servers - compute service
+	- Q for EC2 provides guidance and suggestions for EC2 instance types for your workload
+	- Can provide requirements using natural language
+- Q for AWS Chatbot
+	- Way for you to deploy a chatbot in slack or teams channel 
+	- Troubleshoot issues, receive notifications for alarms, billing alerts, create support request
+	- Access Amazon Q directly in AWS chatbot to accelerate understanding of the AWS services
+- Q for Glue
+	- ETL service for moving data
+	- Assists with
+		- Chat - answering questions about Glue and provide links to documentation
+		- Data integration - Answer questions about AWS Glue ETL scripts as well as generate new code
+		- Troubleshoot - understand errors and provide step by step instructions

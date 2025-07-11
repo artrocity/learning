@@ -1,0 +1,21 @@
+## Types
+- Supervised
+	- Labeled data
+	- Used for
+		- Classification
+			- Is this input data a or b
+		- Regression
+			- Based on inputs predict stock prices
+- Unsupervised
+	- Unlabeled data
+	- Used for
+		- Clustering
+			- Groups similar items
+			- Finds relationships in data
+		- Association Rule Learning
+			- Creates categoires
+- Reinforcement
+	- Teaches a model through trial and error
+	- It's implemented through a reward system
+	- Skill acquisition
+	- Real-time learning

@@ -1,0 +1,13 @@
+## ACID
+- Atomicity
+	- ALL OR NOTHING
+	- Transactions are ATOMIC, part of one entire unit
+	- All oeprations within a database are completed successfully
+	- If not, the transaction is aborted
+- Consistency
+	- Database follows all rules and constraints before and after a transaction
+- Isolation
+	- Ensures transactions are securely and independently 
+	- Multiple transactions won't interfere with each other
+- Durability
+	- Once a transaction is committed, it's permanently saved, even if a system crashes

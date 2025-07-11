@@ -1,0 +1,13 @@
+## Terms used in Deep Racer Training
+- Exploration
+	- Learning agent is allowed to pursue actions which may not result in a reward
+	- The purpose of exploration is to discover the rewards available in the environment and their value
+	- Exploration is key to encouraging learning during training. 
+- Exploitation
+	- Exploitation is when an algorithm takes advantage of known information from previous experiences to achieve higher cumulative rewards
+	- Models need to explore to gain new experiences that can be used to find the optimum policy in the future
+	- As a policy is trained over multiple iterations and learns about the environment, it becomes more certain about choosing an action for a given observation
+	- If the policy doesn't explore enough, it will stick to known information, even if it's not optimum
+- Convergence
+	- Convergence happens when a model starts to repeatedly pick specific actions and as the model continues training the actions from each stage don't change anymore
+	- The model is optimizing for expected cumulative, and model performance is the same on repeat runs

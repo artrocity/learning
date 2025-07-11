@@ -1,0 +1,21 @@
+## TYPES
+- Document
+	- Stores data in a like JSON object
+	- Schemaless
+	- Semi or Unstructured Data
+	- Example
+		- MongoDB
+		- Firestore
+		- AWS Document DB
+- Key-value Database
+	- Generalized version of a Document DB
+	- Stores data in key value pairs
+	- Examples
+		- AWS DynamoDB
+- Object Storage
+	- Stores items as objects
+		- Objects can be files, videos, audio files, csvs, etc
+	- Flat hierarchy, no folder structure
+	- Oftentimes used as a staging system between systems
+	- Examples
+		- S3

@@ -1,0 +1,20 @@
+## Concepts
+- Tokenization
+	- Converting raw text into a sequence of tokens
+	- Word-based tokenization
+		- Text is split into individual words
+	- Subword tokenization
+		- Some words can be split (long words)
+- Context Window
+	- The number of tokens an LLM can consider when generating text
+	- The larger the context window, the more information and coherence
+	- The larger the window, the more memory and processing power required
+	- The context window is one of the first things to consider when looking at creating a model
+- Embeddings
+	- Create vectors (array of numerical values) out of text, images, and audio
+	- Embedding models can power a search application
+	- Embeddings is ultimately used to create vector diagrams up to 100 dimensions, since we are unable to properly visualize what 100 dimensions would look like, we use dimensionality reduction, to reduce word embeddings to 2d
+	- Words that are similar, semantic, have a close position in the vector database
+	- Embedding flow
+		- Prompt > Tokenization > Each word gets a token ID > Embeddings Model > Vector each word > Store in vector database
+		- ![[Pasted image 20250317215013.png]]

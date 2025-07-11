@@ -1,0 +1,12 @@
+## Bedrock Agents
+- Bedrock agents manage and carry out various multi-step tasks related to infrastructure provisioning, application deployment, and operational activities
+- Task coordination: Perform tasks in the correct order and ensure information is passed correctly between tasks
+- Agents are configured to perform specific pre-defined action groups
+- Integrate with other systems, services, databases, and API to exchange data or initiate actions
+- Leverage RAG to retrieve information when necessary
+- Workflow
+	- Agent is provided with instructions
+	- Agent invokes APIs or Lambda functions
+	- Access knowledge bases via S3 (RAG)
+	- Access information from Database Store
+	- Through the use of tracing you can see the steps created by the agent and determine if steps need to be removed or changed

@@ -1,0 +1,26 @@
+## What is it??
+- Fully managed service for machine learners and data scientists to build ML models
+- SageMaker allows one place for all of your needs which is typically difficult to do all the processes in one place
+- Used to:
+	- Collect and prepare data
+	- Build and train machine learning models
+	- Deploy the models and monitor the performance of the predictions
+- Built in Algorithms
+	- Supervised
+		- KNN
+		- Linear regressions and classifications
+	- Unsupervised
+		- K-means
+		- Anomaly Detection
+	- Textual Algorithms
+		- NLP
+	- Image Processing
+- Automatic Model Tuning
+	- Define the object metric that you want to optimize for
+	- AMT automatically chooses the hyperparameter ranges, runtime, tuning job
+	- Helps you not waste time and money
+- Model Deployment
+	- Deploy with one click
+	- Automatic scaling
+	- No servers
+	- Managed solution - no overhead

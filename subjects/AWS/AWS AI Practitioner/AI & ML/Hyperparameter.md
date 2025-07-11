@@ -1,0 +1,41 @@
+## What is it
+- Settings that define the model structure and learning algorithm and process
+- Set before training begins
+- Examples
+	- Learning Rate
+	- Batch Size
+	- Number of Epochs
+	- Regularization
+- Tuning
+	- Find the best hyper parameters
+	- Improve accuracy of the model
+	- How to do it
+		- Grid search
+		- Tools such as Sage Maker 
+- Important Hyperparameters
+	- Learning Rate
+		- How large or small the steps are when updating the model's weights during training
+		- High learning rate can lead to faster convergence, but risks overshooting the optimal solution
+		- Low Learning rate is more precise but slower
+	- Batch Size
+		- Number of training examples used to update the model weights in one iteration
+		- Smaller batches can lead to more stable learning
+		- Larger batches are faster but less stable
+	- Number of Epochs
+		- Refers to how many times the model will iterate over the entire training set
+		- Too few = underfitting
+		- Too many = overfitting
+	- Regularization
+		- Adjust the balance between simple and complex model
+		- Increase regularization to reduce overfitting
+## Overfitting
+- Model performs well in training data but poorly with enw data
+- Occurs due to:
+	- Training data too small
+	- Model trains too long on simple data
+	- Model complexity is too high
+- Prevent via:
+	- Increase training data size
+	- Early stoppage of model training
+	- Data augmentation
+	- Adjust hyper parameters

@@ -1,0 +1,28 @@
+## What are the phases
+- Business Problem
+	- Define business goals
+	- Stakeholders will define the value, budget, and success criteria
+	- Define Key performance indicators (KPI)
+- ML Problem Framing
+	- Convert business problem into a machine learning problem
+	- Determine if ML is appropriate or if another solution fits better
+	- Data scientists, data engineers, and ML architects/engineers collaborate
+- Data Collection & Preparation
+	- Collect data and convert to usable format
+	- Make data centrally accessible
+	- Pre-process data and prepare visualization
+- Feature Engineering
+	- Feature engineering: create, transform, and extract variables from the data
+- Model Training & Parameter Tuning
+	- Model training, tuning
+- Model Evaluation
+	- Evaluate the model
+	- Determine if additional features are required or if more tuning is required
+- Are business goals met
+	- No
+		- Do we require more data
+		- Data Augmentation
+	- Yes
+		- Model Testing & Deployment
+		- Monitor & Debuf
+		- Add new data and retrain
